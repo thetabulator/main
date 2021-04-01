@@ -17,16 +17,16 @@ function App() {
       <Route exact path='/' component={Home}></Route>
      <Route exact path="/post/:id" component={Post}></Route>
       </Switch>
-      <footer className="text-center text-lg-start">
+    
+    </div>
+    <footer class="bg-light text-center text-lg-start mt-3">
  
-      <div className="btn-group mt-3 justify-content-center">
-      <Button outline color="secondary">Home</Button>
-        <Button  outline color="secondary">APIs</Button>
-        <Button  outline color="secondary">Data</Button>
-        </div>
+ <div class="text-center p-3">
+ 
+   <a class="text-dark" href="/apiinfo"> APIs</a> | <a class="text-dark" href="/about"> About</a> | <a class="text-dark" href="/authors"> Authors</a>
+ </div>
 
 </footer>
-    </div>
     </Router>
      
   );

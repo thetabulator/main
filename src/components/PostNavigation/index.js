@@ -1,14 +1,8 @@
 import React from 'react'
 import {
-    
     Navbar,
-    
     NavbarBrand,
-    Nav,
-    NavItem,
-    NavLink,
-    
-    NavbarText
+  
   } from 'reactstrap';
   import {IoChevronBackCircle}  from 'react-icons/io5'
 const PostNav = (props) => {
