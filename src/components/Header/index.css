@@ -1,0 +1,15 @@
+h1 {
+    font-size: 60px;
+    text-align: center;
+}
+.head{
+    margin-top: 20px;
+}
+.subtitle {
+    text-align: center;
+    font-style: italic;
+    color: #7a7574;
+}
+.buttondrop{
+    text-align: center;
+}
